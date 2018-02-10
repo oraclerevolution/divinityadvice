@@ -81,3 +81,8 @@ function main() {
 
 }
 main();
+
+var bouton = document.getElementById('bouton')
+bouton.addEventListener("click",()=>{
+    alert("service indisponible pour l'instant, veuillez cliquez sur le bouton 'Laissez vos commentaires'!")
+})
